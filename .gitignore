@@ -1,0 +1,15 @@
+# 构建缓存与首次运行自动拉取的依赖
+.build/
+
+# 构建产物
+ChromeTabs.pock/
+
+# 临时测试产物
+testload*
+testdlopen*
+testscan*
+testpage*
+*.bundle
+
+# macOS
+.DS_Store
